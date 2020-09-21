@@ -1,0 +1,19 @@
+import java.util.Scanner;
+/**
+ *
+ * @author issei
+ */
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String expresion = scanner.next();
+
+        System.out.println(expresion);
+
+        ShuntingYard sy = new ShuntingYard();
+        sy.evalua(expresion);
+    }
+
+}
