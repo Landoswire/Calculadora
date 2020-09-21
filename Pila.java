@@ -1,7 +1,7 @@
 
 /**
  *
- * @author issei
+ * @author Issei
  */
 public class Pila {
 
